@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name        Instagram DarkMode
 // @description Automatically input
-// @updateURL   https://github.com/Dandyboiii/Tampermonkey-Scripts/blob/main/Scripts/Instagram-Dark-Mode.js
-// @downloadURL https://github.com/Dandyboiii/Tampermonkey-Scripts/blob/main/Scripts/Instagram-Dark-Mode.js
+// @updateURL   https://github.com/QuarTheDev/Tampermonkey-Scripts/blob/main/Scripts/Instagram-Dark-Mode.js
+// @downloadURL https://github.com/QuarTheDev/Tampermonkey-Scripts/blob/main/Scripts/Instagram-Dark-Mode.js
 // @version     1.0.0
 // @match       *://*.instagram.com/*
 // @run-at      document-start
