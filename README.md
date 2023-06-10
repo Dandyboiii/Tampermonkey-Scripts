@@ -1,9 +1,7 @@
 <center>
 <h1 align="center">
 <b>
-<code>
-Userscripts
-</code>
+<code>Userscripts</code>
 </b>
 </h1>
 </center>
