@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name        Instagram DarkMode
-// @description Automatically input
-// @updateURL   https://github.com/QuarTheDev/Tampermonkey-Scripts/blob/main/Instagram-Dark-Mode.js
-// @downloadURL https://github.com/QuarTheDev/Tampermonkey-Scripts/blob/main/Instagram-Dark-Mode.js
-// @version     1.0.0
+// @name        Instagram Dark Mode
+// @description A simple script that toggles a Dark Mode query every time instagram.com is loaded.
+// @updateURL   https://raw.githubusercontent.com/QuarTheDev/userscripts/main/instagram-dark.user.js
+// @downloadURL https://raw.githubusercontent.com/QuarTheDev/userscripts/main/instagram-dark.user.js
+// @version     0.1.0
 // @match       *://*.instagram.com/*
 // @run-at      document-start
 // @grant       none
@@ -12,7 +12,6 @@
 var oldUrlSearch = window.location.search;
 
 if ( ! /\?theme=dark$/.test (oldUrlSearch) ) {
-
     var newURL = window.location.protocol + "//"
                + window.location.host
                + window.location.pathname
