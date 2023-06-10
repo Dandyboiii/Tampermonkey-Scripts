@@ -7,6 +7,8 @@
 // @author      QuarTheDev
 // @match       *://*.github.com/*/settings
 // @icon        https://github.githubassets.com/favicons/favicon-dark.png
+// @license     GPL-3.0
+// @namespace   https://quar.pages.dev/
 // @grant       none
 // ==/UserScript==
 

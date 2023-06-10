@@ -7,6 +7,9 @@
 // @author      QuarTheDev
 // @match       *://*.instagram.com/*
 // @run-at      document-start
+// @icon        https://static.cdninstagram.com/rsrc.php/v3/ys/r/aM-g435MtEX.png
+// @license     GPL-3.0
+// @namespace   https://quar.pages.dev/
 // @grant       none
 // ==/UserScript==
 
