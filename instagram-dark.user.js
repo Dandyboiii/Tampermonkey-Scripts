@@ -4,6 +4,7 @@
 // @updateURL   https://raw.githubusercontent.com/QuarTheDev/userscripts/main/instagram-dark.user.js
 // @downloadURL https://raw.githubusercontent.com/QuarTheDev/userscripts/main/instagram-dark.user.js
 // @version     0.1.0
+// @author      QuarTheDev
 // @match       *://*.instagram.com/*
 // @run-at      document-start
 // @grant       none
