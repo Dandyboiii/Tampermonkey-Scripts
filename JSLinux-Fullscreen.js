@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         JSLinux Fullscreen
 // @namespace    https://linux.new/
-// @version      0.1
+// @version      0.1.1
 // @description  Patches JSLinux have fullscreen capability, plus a graphical facelift.
 // @updateURL   https://github.com/QuarTheDev/Tampermonkey-Scripts/blob/main/JSLinux-Fullscreen.js
 // @downloadURL https://github.com/QuarTheDev/Tampermonkey-Scripts/blob/main/JSLinux-Fullscreen.js
