@@ -2,7 +2,7 @@
 // @name        JSLinux Fullscreen
 // @namespace   https://linux.new/
 // @version     0.1.1
-// @description A small script that gives `linux.new` a fresh facelift and a satisfying dark mode, along with a fullscreen button.
+// @description A small script that completely redesigns linux.new with a fresh coat of paint and a satisfying dark mode.
 // @updateURL   https://raw.githubusercontent.com/QuarTheDev/userscripts/main/jslinux-redesign.user.js
 // @downloadURL https://raw.githubusercontent.com/QuarTheDev/userscripts/main/jslinux-redesign.user.js
 // @author      QuarTheDev

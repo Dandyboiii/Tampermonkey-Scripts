@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        GitHub Delete Repo Bypass
-// @description A script that elegantly bypasses the verification code menu, useful for if you're mass-deleting repos.
+// @description A script that elegantly bypasses the github.com verification code menu, useful for if you're mass-deleting repos.
 // @updateURL   https://raw.githubusercontent.com/QuarTheDev/userscripts/main/github-bypass.user.js
 // @downloadURL https://raw.githubusercontent.com/QuarTheDev/userscripts/main/github-bypass.user.js
 // @version     0.2.3
