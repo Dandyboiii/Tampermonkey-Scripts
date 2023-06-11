@@ -3,9 +3,10 @@
 // @description A script that elegantly bypasses the github.com verification code menu, useful for if you're mass-deleting repos.
 // @updateURL   https://raw.githubusercontent.com/QuarTheDev/userscripts/main/github-bypass.user.js
 // @downloadURL https://raw.githubusercontent.com/QuarTheDev/userscripts/main/github-bypass.user.js
-// @version     0.2.3
+// @version     0.2.4
 // @author      QuarTheDev
 // @match       *://*.github.com/*/settings
+// @run-at      document-end
 // @icon        https://github.githubassets.com/favicons/favicon-dark.png
 // @license     GPL-3.0
 // @namespace   https://quar.pages.dev/
@@ -30,6 +31,6 @@
         }
     }
 
-    // execute every 50ms (This is only temporary until I find a better solution.)
-    setInterval(bypass, 50);
+    // Execute every 100ms (temporary)
+    setInterval(bypass, 100);
 })();
