@@ -1,7 +1,6 @@
 
-<center><h1 align="center"><b>Quar's Userscripts</b></h1></center>
-
-
+<center><h1 align="center"><b><a href="https://github.com/QuarTheDev/userscripts/"><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/b5/a3/52/b5a35252-74ea-c14c-e6d7-190944f5c547/AppIcon-85-220-4-2x.png/460x0w.webp" width="30px" alt="👨‍💻" title="Quar's Userscripts"></a> Quar's Userscripts</b></h1></center>
+  
 ### 🤔 What is this?
 This is a public repository of userscripts I've created over the years. Feel free to tweak them how you please. They are all released under the [GPL 3.0](https://choosealicense.com/licenses/gpl-3.0/) license.
 
@@ -17,6 +16,8 @@ Click the download button to install any of my userscripts:
 |<a href="https://github.com/QuarTheDev/userscripts/raw/main/instagram-dark.user.js"><img src="https://github.com/QuarTheDev/userscripts/blob/main/.github/images/download.png?raw=true" width="24px" alt="⬇️" title="Install Userscript">|**Instagram Dark Mode**<br>A simple script that toggles a Dark Mode query every time `instagram.com` is loaded.|0.1.1|
 |<a href="https://github.com/QuarTheDev/userscripts/raw/main/jslinux-redesign.user.js"><img src="https://github.com/QuarTheDev/userscripts/blob/main/.github/images/download.png?raw=true" width="24px" alt="⬇️" title="Install Userscript">|**JSLinux Fullscreen**<br>A small script that completely redesigns `linux.new` with a fresh coat of paint and a satisfying dark mode.|0.1.2|
 
+<br>
+  
 ### 🧐 How do I install these?
 
 You can install a userscript by pressing the Download icon above, on the left hand side. If the only thing that shows up is lines of code, you need to install a Userscript Manager.
