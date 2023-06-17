@@ -1,3 +1,4 @@
+[**◂** Back](https://github.com/QuarTheDev/userscripts)
 <center>
 <h1 align="center">JSLinux Fullscreen</h4>
 </center>

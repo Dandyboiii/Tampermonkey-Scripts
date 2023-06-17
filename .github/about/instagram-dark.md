@@ -1,3 +1,4 @@
+[**◂** Back](https://github.com/QuarTheDev/userscripts)
 <center>
 <h1 align="center">Instagram Dark Mode</h4>
 </center>
