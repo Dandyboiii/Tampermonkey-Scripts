@@ -4,7 +4,9 @@
 
 ### About
 
-This is an extensive modification for `adsbexchange.com` that makes many small beneficial changes to the UI, and introduces new, useful features to the site.
+This is an extensive modification for [adsbexchange.com](https://globe.adsbexchange.com/) that makes many small beneficial changes to the UI, and introduces new, useful features to the site.
+
+<center><a href="https://raw.githubusercontent.com/QuarTheDev/userscripts/main/adsb-improvements.user.js"><img src="https://raw.githubusercontent.com/QuarTheDev/userscripts/main/.github/images/adsb-improvements-preview.png" alt="🤔" title="Preview"></a></center>
 
 ### Changelogs
 

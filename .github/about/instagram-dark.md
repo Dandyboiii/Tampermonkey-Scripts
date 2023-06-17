@@ -4,7 +4,9 @@
 
 ### About
 
-This is a barebones script that adds a Dark Mode query every time instagram.com is loaded. It was initially implemented before the official dark mode, and the 'query' method still remains more reliable than the official setting.
+This is a barebones script that adds a Dark Mode query every time [instagram.com](https://instagram.com/) is loaded. It was initially implemented before the official dark mode, yet the 'query' method still remains more reliable than the official dark mode option.
+
+<center><a href="https://raw.githubusercontent.com/QuarTheDev/userscripts/main/instagram-dark.user.js"><img src="https://raw.githubusercontent.com/QuarTheDev/userscripts/main/.github/images/instagram-dark-preview.png" alt="🤔" title="Preview"></a></center>
 
 ### Changelogs
 

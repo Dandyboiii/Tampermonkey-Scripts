@@ -4,7 +4,9 @@
 
 ### About
 
-This is a script that bypasses the github.com verification code menu, useful for if you're mass-deleting repos. It still has a couple issues I need to work out, so **use with caution**.
+This is a script that bypasses the [github.com](https://github.com/) verification code menu, useful for if you're mass-deleting repos. It still has a couple issues I need to work out, so **use with caution**.
+
+<center><a href="https://raw.githubusercontent.com/QuarTheDev/userscripts/main/github-bypass.user.js"><img src="https://raw.githubusercontent.com/QuarTheDev/userscripts/main/.github/images/github-bypass-preview.png" alt="🤔" title="Preview"></a></center>
 
 ### Changelogs
 

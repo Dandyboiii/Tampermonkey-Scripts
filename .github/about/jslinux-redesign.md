@@ -4,7 +4,9 @@
 
 ### About
 
-This is a rather small script that completely redesigns [linux.new](https://linux.new) with a fresh coat of paint and a satisfying dark mode, along with some other beneficial features
+This is a rather small script that completely redesigns [linux.new](https://linux.new) with a fresh coat of paint and a satisfying dark mode, along with some other beneficial features.
+
+<center><a href="https://raw.githubusercontent.com/QuarTheDev/userscripts/main/jslinux-redesign.user.js"><img src="https://raw.githubusercontent.com/QuarTheDev/userscripts/main/.github/images/jslinux-redesign-preview.png" alt="🤔" title="Preview"></a></center>
 
 ### Changelogs
 
