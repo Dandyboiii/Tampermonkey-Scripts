@@ -3,7 +3,7 @@
 // @description  A modification for adsbexchange.com that makes the UI slightly more modern and easier to look at.
 // @updateURL    https://raw.githubusercontent.com/QuarTheDev/userscripts/main/adsb-improvements.user.js
 // @downloadURL  https://raw.githubusercontent.com/QuarTheDev/userscripts/main/adsb-improvements.user.js
-// @version      0.3.0
+// @version      0.3.1
 // @author       QuarTheDev
 // @match        *://*.adsbexchange.com/*
 // @run-at       document-end
@@ -15,6 +15,12 @@
 
 (function() {
     'use strict';
+
+    // Auto-Redirect adsbexchange.com to globe.adsbexchange.com
+    if (location.hostname === 'adsbexchange.com') {
+        var newURL = location.href.replace('adsbexchange.com', 'globe.adsbexchange.com');
+        location.replace(newURL);
+    }
 
     // FlightAware Redirect
     // Special thanks to @pony-pasture-aviation for the concept
@@ -109,7 +115,7 @@
     // Main CSS modifications
     GM_addStyle(`
 
-        *:not(body):not(#layout_container):not(#map_container):not(#map_canvas):not(.ol-viewport):not(.ol-unselectable.ol-layers):not(.ol-layer):not(canvas):not(img) {
+        *:not(body):not(#layout_container):not(#map_container):not(#map_canvas):not(.ol-viewport):not(.ol-unselectable.ol-layers):not(.ol-layer):not(canvas):not(img):not(.layer-switcher .group button) {
             border-radius: 8px !important;
         }
 
@@ -146,7 +152,7 @@
         }
 
         div#settingsCog {
-            background-image: url('https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/settings.png?v=1.2.0') !important;
+            background-image: url('https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/settings.png?v=1') !important;
         }
 
        .settingsCog {
@@ -175,23 +181,23 @@
         }
 
         button#toggle_sidebar_button.sidebar_button.show_sidebar {
-            background-image: url('https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/hide_sidebar.png?v=1.2.0') !important;
+            background-image: url('https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/hide_sidebar.png?v=1') !important;
             box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3) !important;
         }
 
         button#expand_sidebar_button.sidebar_button {
-            background-image: url('https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/hide_sidebar.png?v=1.2.0') !important;
+            background-image: url('https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/hide_sidebar.png?v=1') !important;
             box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3) !important;
         }
 
         button#toggle_sidebar_button.sidebar_button.hide_sidebar {
-            background-image: url('https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/hide_sidebar.png?v=1.2.0') !important;
+            background-image: url('https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/hide_sidebar.png?v=1') !important;
             transform: scaleX(1);
             box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.3) !important;
         }
 
         button#shrink_sidebar_button.shrink_sidebar.hidden.sidebar_button {
-            background-image: url('https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/hide_sidebar.png?v=1.2.0') !important;
+            background-image: url('https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/hide_sidebar.png?v=1') !important;
             transform: scaleX(1) !important;
         }
 
@@ -242,11 +248,11 @@
         }
 
         button.ol-zoom-in {
-            background-image: url('https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/zoom-in.png?v=1.2.0') !important;
+            background-image: url('https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/zoom-in.png?v=1') !important;
         }
 
         button.ol-zoom-out {
-            background-image: url('https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/zoom-out.png?v=1.2.0') !important;
+            background-image: url('https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/zoom-out.png?v=1') !important;
         }
 
         .ol-scale-line {
@@ -259,6 +265,12 @@
             border: none !important;
             background-color: rgba(0,89,107,.75) !important;
             color: #FFF !important;
+        }
+
+        .layer-switcher .group button {
+            background-image: url('https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/collapse.png?v=1') !important;
+            background-position: none !important;
+            background-size: 14px !important;
         }
     `);
 })();
