@@ -1,6 +1,6 @@
 [**◂** Back](https://github.com/QuarTheDev/userscripts)
 
-<h1 align="center"><a href="#"><img src="https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/logos/redditnomore-512.png" width="36px" alt="🟢" title="Instagram Dark Mode"></a> RedditNoMore </h1>
+<h1 align="center"><a href="#"><img src="https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/logos/redditnomore-512.png" width="36px" alt="🟢" title="RedditNoMore"></a> RedditNoMore </h1>
 
 <h3 align="center">ⓘ About</h3>
 
