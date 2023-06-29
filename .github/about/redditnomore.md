@@ -4,7 +4,7 @@
 
 <h3 align="center">ⓘ About</h3>
 
-<p align=center>This userscript was created due to the recent insane API changes made by Reddit. This redirects all <a href="https://reddit.com/">reddit.com</a> homepage requests to <a href="https://lemmy.world/">lemmy.world</a>, and redirects all other requests (subreddits, user pages) to <a href="https://libreddit.tux.pizza/">libreddit.tux.pizza</a>, bypassing any and all official Reddit pages.</p>
+<p align=center>This userscript was created due to the recent insane API changes made by Reddit. This redirects all <a href="https://reddit.com/">reddit.com</a> homepage requests to <a href="https://lemmy.world/">lemmy.world</a>, and redirects all other requests (subreddits, user pages) to <a href="https://libreddit.hu/">libreddit.hu</a>, bypassing any and all official Reddit pages.</p>
 
 <p align="center">
   <a href="#">
@@ -16,7 +16,7 @@
 
 |Version|Changelog|
 |-|-|
-|0.1.1| <details><summary>Changes<br></summary> - Implemented redesign icon</details>|
+|0.1.1| <details><summary>Changes<br></summary> - Implemented redesign icon<br> - Changed default Libreddit instance</details>|
 |0.1.0| <details><summary>Changes<br></summary> - Initial commit</details>|
 
 ### Install
