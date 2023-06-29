@@ -3,15 +3,22 @@
 // @description  A modification for adsbexchange.com that makes the UI slightly more modern and easier to look at.
 // @updateURL    https://raw.githubusercontent.com/QuarTheDev/userscripts/main/adsb-improvements.user.js
 // @downloadURL  https://raw.githubusercontent.com/QuarTheDev/userscripts/main/adsb-improvements.user.js
-// @version      0.3.1
+// @version      0.3.2
 // @author       QuarTheDev
 // @match        *://*.adsbexchange.com/*
 // @run-at       document-end
-// @icon         https://globe.adsbexchange.com/images/cropped-Stealth-1-270x270.png
+// @icon         https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/logos/adsb-improvements-512.png
 // @license      GPL-3.0
 // @namespace    https://quar.pages.dev/
 // @grant        GM_addStyle
 // ==/UserScript==
+
+// NOTES
+// Google Icons data:
+// Fill: 1
+// Weight: 500
+// Grade: 200
+// Optical Size: 48
 
 (function() {
     'use strict';
@@ -49,6 +56,19 @@
     // Mature sidebar names
     const sidebar_titles = document.getElementsByClassName('section-title-content');
     sidebar_titles[7].textContent = 'Miscellaneous';
+
+    // Temporary: Snap Sliders
+    var sliderSelector = ".ui-slider-handle";
+    var snapIncrement = 5;
+
+    var sliders = document.querySelectorAll(sliderSelector);
+    sliders.forEach(function(slider) {
+        slider.addEventListener("mouseup", function() {
+            var position = parseInt(slider.style.left, 10);
+            var snappedPosition = Math.round(position / snapIncrement) * snapIncrement;
+            slider.style.left = snappedPosition + "%";
+        });
+    });
 
     // Dynamic background (temporary solution, will fix soon)
     const radioColors = {
@@ -110,7 +130,6 @@
     }
 
     initialize();
-
 
     // Main CSS modifications
     GM_addStyle(`
@@ -271,6 +290,41 @@
             background-image: url('https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/collapse.png?v=1') !important;
             background-position: none !important;
             background-size: 14px !important;
+        }
+
+        button#show_trace.greyButton {
+            padding: calc( 3px * var(--SCALE)) calc( 20px * var(--SCALE)) !important;
+            text-transform: uppercase !important;
+            text-align: center !important;
+            color: #e8e8e8 !important;
+            font-family: helvetica neue,Helvetica,Verdana,sans-serif !important;
+            font-size: var(--FS2) !important;
+            background-color: #003f4b !important;
+            font-weight: 400 !important;
+            margin-bottom: calc( 7px * var(--SCALE)) !important;
+        }
+
+        .greyButton::after {
+            display: none !important;
+        }
+
+        .infoblockCloseBox {
+            filter: none !important;
+            right: calc( 8px * var(--SCALE)) !important;
+            top: calc( 8px * var(--SCALE)) !important;
+            background-image: url(https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/close-settings.png?v=1) !important;
+        }
+
+        #toggle_sidebar_control {
+            margin-bottom: calc( 6px * var(--SCALE)) !important;
+        }
+
+        #highlighted_infoblock {
+            box-shadow: none !important;
+        }
+
+        .ui-slider-handle {
+            background-color: var(--TXTCOLOR2) !important;
         }
     `);
 })();

@@ -1,6 +1,6 @@
 [**◂** Back](https://github.com/QuarTheDev/userscripts)
 
-<h1 align="center"><a href="#"><img src="https://static.cdninstagram.com/rsrc.php/v3/ys/r/aM-g435MtEX.png" width="36px" alt="🟢" title="Instagram Dark Mode"></a> Instagram Dark Mode </h1>
+<h1 align="center"><a href="#"><img src="https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/logos/instagram-dark-512.png" width="36px" alt="🟢" title="Instagram Dark Mode"></a> Instagram Dark Mode </h1>
 
 <h3 align="center">ⓘ About</h3>
 
@@ -16,6 +16,7 @@
 
 |Version|Changelog|
 |-|-|
+|0.1.2|<details><summary>Changes<br></summary> - Implemented redesign icon </details>|
 |0.1.1|<details><summary>Changes<br></summary> - Implemented function syntax </details>|
 |0.1.0| <details><summary>Changes<br></summary> - Initial commit</details>|
 

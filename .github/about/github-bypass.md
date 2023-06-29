@@ -1,6 +1,6 @@
 [**◂** Back](https://github.com/QuarTheDev/userscripts)
 
-<h1 align="center"><a href="#"><img src="https://github.githubassets.com/favicons/favicon-dark.png" width="36px" alt="🟢" title="GitHub Bypass"></a> GitHub Bypass </h1>
+<h1 align="center"><a href="#"><img src="https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/logos/github-bypass-512.png" width="36px" alt="🟢" title="GitHub Bypass"></a> GitHub Bypass </h1>
 
 <h3 align="center">ⓘ About</h3>
 
@@ -17,6 +17,7 @@
 
 |Version|Changelog|
 |-|-|
+|0.2.5|<details><summary>Changes<br></summary> - Implemented redesign icon </details>|
 |0.2.4|<details><summary>Changes<br></summary> - Extended interval to 100ms </details>|
 |0.2.3| <details><summary>Changes<br></summary> - Fixed query selection<br> - Tweaked execution interval</details>|
 

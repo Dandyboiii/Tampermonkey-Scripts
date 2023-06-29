@@ -1,6 +1,6 @@
 [**◂** Back](https://github.com/QuarTheDev/userscripts)
 
-<h1 align="center"><a href="#"><img src="https://globe.adsbexchange.com/images/cropped-Stealth-1-270x270.png" width="36px" alt="🟢" title="ADS-B Improvements"></a> ADS-B Improvements </h1>
+<h1 align="center"><a href="#"><img src="https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/logos/adsb-improvements-512.png" width="36px" alt="🟢" title="ADS-B Improvements"></a> ADS-B Improvements </h1>
 
 <h3 align="center">ⓘ About</h3>
 
@@ -16,6 +16,7 @@
 
 |Version|Changelog|
 |-|-|
+|0.3.2|<details><summary>Changes<br></summary> - Implemented redesign icon<br> - Fixed 'history' tab<br> - Replaced the 'X' icon<br> - Added 'snappable' sliders for testing</details>|
 |0.3.1|<details><summary>Changes<br></summary> - Fixed legend buttons </details>|
 |0.3.0|<details><summary>Changes<br></summary>  - Added cached images<br>- Added dynamic themes for maps<br>- Added auto-redirect function<br>- Fixed some inconsistent shadows<br> - Themed error dialogs<br> - Rewrote FlightAware functionality</details>|
 |0.2.0|<details><summary>Changes<br></summary> - Removed some annoying branding<br> - Renamed "Stuff" to "Miscellaneous"<br> - More consistently-themed buttons </details>|

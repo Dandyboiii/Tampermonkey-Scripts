@@ -1,14 +1,14 @@
 [**◂** Back](https://github.com/QuarTheDev/userscripts)
 
-<h1 align="center"><a href="#"><img src="https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/logos/jslinux-redesign-512.png" width="36px" alt="🟢" title="JSLinux Fullscreen"></a> JSLinux Fullscreen </h1>
+<h1 align="center"><a href="#"><img src="https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/logos/unquirks-mode-512.png" width="36px" alt="🟢" title="Overlay Killer"></a> Unquirks Mode </h1>
 
 <h3 align="center">ⓘ About</h3>
 
-<p align=center>This is a rather small script that completely redesigns <a href="https://linux.new/">linux.new</a> with a fresh coat of paint and a satisfying dark mode, along with some other beneficial features.</p>
+<p align=center>This is a userscript that adds <code>!DOCTYPE HTML</code> to the beginning of every webpage, ensuring Quirks Mode is not automatically enabled.</p>
 
 <p align="center">
   <a href="#">
-  <img src="https://raw.githubusercontent.com/QuarTheDev/userscripts/main/.github/images/jslinux-redesign-preview.png" width="1024px" alt="🤔" title="Preview" />
+  <img src="https://raw.githubusercontent.com/QuarTheDev/userscripts/main/.github/images/unquirks-mode-preview.png" width="1024px" alt="🤔" title="Preview" />
   </a>
 </p>
 
@@ -16,14 +16,11 @@
 
 |Version|Changelog|
 |-|-|
-|0.1.3|<details><summary>Changes<br></summary> - Implemented redesign icon </details>|
-|0.1.2|<details><summary>Changes<br></summary> - Replace font Courier with Space Mono </details>|
-|0.1.1|<details><summary>Changes<br></summary> - Added license and update information </details>|
 |0.1.0| <details><summary>Changes<br></summary> - Initial commit</details>|
 
 ### Install 
 
-|<a href="https://raw.githubusercontent.com/QuarTheDev/userscripts/main/jslinux-redesign.user.js"><img src="https://github.com/QuarTheDev/userscripts/blob/main/.github/images/download.png?raw=true" width="24px" alt="⬇️" title="Install Userscript">|**JSLinux Fullscreen**
+|<a href="https://raw.githubusercontent.com/QuarTheDev/userscripts/main/unquirks-mode.user.js"><img src="https://github.com/QuarTheDev/userscripts/blob/main/.github/images/download.png?raw=true" width="24px" alt="⬇️" title="Install Userscript">|**Unquirks Mode**
 |-|-|
 
 ### Instructions

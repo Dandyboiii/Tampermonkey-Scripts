@@ -3,7 +3,7 @@
 // @description  Redirects reddit.com to Lemmy, and redirects reddit.com/* links to Libreddit.
 // @updateURL    https://raw.githubusercontent.com/QuarTheDev/userscripts/main/redditnomore.user.js
 // @downloadURL  https://raw.githubusercontent.com/QuarTheDev/userscripts/main/redditnomore.user.js
-// @version      0.1.0
+// @version      0.1.1
 // @author       QuarTheDev
 // @match        *://*.reddit.com/*
 // @run-at       document-start
@@ -18,17 +18,16 @@
 
     // Set your custom Lemmy instance
     var lemmyURL = 'https://lemmy.world/';
-    
-    // Set your custom Libreddit instance
-    var libredditURL = 'https://libreddit.tux.pizza/';
 
-    
+    // Set your custom Libreddit instance
+    var libredditURL = 'https://libreddit.hu/';
+
     var currentURL = window.location.href;
+
     if (currentURL === 'https://www.reddit.com/') {
         window.location.href = lemmyURL;
     } else if (currentURL.startsWith('https://www.reddit.com/')) {
         var path = currentURL.replace('https://www.reddit.com/', '');
         window.location.href = libredditURL + path;
     }
-
 })();

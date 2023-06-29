@@ -16,6 +16,7 @@
 
 |Version|Changelog|
 |-|-|
+|0.1.1| <details><summary>Changes<br></summary> - Implemented redesign icon</details>|
 |0.1.0| <details><summary>Changes<br></summary> - Initial commit</details>|
 
 ### Install
