@@ -16,6 +16,7 @@
 
 |Version|Changelog|
 |-|-|
+|0.1.1| <details><summary>Changes<br></summary> - Fixed incorrect @match </details>|
 |0.1.0| <details><summary>Changes<br></summary> - Initial commit</details>|
 
 ### Install 
