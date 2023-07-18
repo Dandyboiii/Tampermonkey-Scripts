@@ -1,4 +1,4 @@
-[**◂** Back](https://github.com/QuarTheDev/userscripts)
+[**◂** Back](https://github.com/QuarTheDev/userscripts#-quars-userscripts)
 
 <h1 align="center"><a href="#"><img src="https://raw.githubusercontent.com/QuarTheDev/userscripts/main/assets/logos/redditnomore-512.png" width="36px" alt="🟢" title="RedditNoMore"></a> RedditNoMore </h1>
 
